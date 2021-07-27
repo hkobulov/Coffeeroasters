@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/barlow-v5-latin-700.woff2') format('woff2'),
+    url('../fonts/barlow-v5-latin-700.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), 
+    url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
+    url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
+    
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    padding: 0;
+    font-family: "Barlow", "Arila", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+/* Header */
+
+.header {
+    padding: 10px 0;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+.nav {
+    width: 282px;
+    margin-left: auto;
+}
+
+.nav-list {
+    margin: -16px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 16px;
+}
+
+.nav-link {
+    font-size: 12px;
+    font-weight: 700;
+    color: #83888F;
+    text-decoration: none;
+}
+
+.nav-link:active {
+    color: #333D4B;
+}
+
+/* Main */
+
+.hero {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.hero-container {
+    width: 1280px;
+    padding: 117px 702px 116px 85px;
+    background-image: url(../images/Bitmap.jpg);
+    background-size: 1280px 600px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.hero-info {
+    width: 500px;
+}
+
+.hero-heading {
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-family: "Fraunces", "Times New Roman", serif;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #FEFCF7;
+    text-align-last: left;
+}
+
+.hero-des {
+    width: 445px;
+    margin: 0;
+    margin-bottom: 56px;
+    padding: 0;
+    color: #FEFCF7;
+    text-align: left;
+}
+
+.hero-link {
+    padding: 15px 31px;
+    font-family: "Fraunces", "Times New Roman", serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 900;
+    color: #FEFCF7;
+    text-decoration: none;
+    background-color: #fff;
+    background: #0E8784;
+    border-radius: 6px;
+}
+
+.hero-link:active {
+    background-color: #66D2CF;
+}
