@@ -46,6 +46,7 @@ img {
 }
 
 body {
+    margin: 0;
     padding: 0;
     font-family: "Barlow", "Arila", sans-serif;
     font-style: normal;
@@ -323,10 +324,15 @@ body {
 }
 
 .work__heading {
-    display: flex;
-    justify-content: flex-start;
-    color: #83888F;
+    margin: 0;
     margin-bottom: 80px;
+    padding: 0;
+    font-family: "Fraunces", "Times New Roman", serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+    color: #83888F;
 }
 
 .work-list {
@@ -436,4 +442,148 @@ body {
 
 .footer-links__item + .footer-links__item {
     margin-left: 24px;
+}
+
+
+
+/* * * * * * * * * * * * * * *  ABOUT US NEW PAGE * * * * * * * * * * * * * *  */
+
+.about-us-container {
+    width: 1280px;
+    padding: 85px 137px;
+    background-image: url("../images/about-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1280px 450px;
+    border-radius: 10px;
+}
+
+.about-us-info {
+    width: 445px;
+}
+
+.about-us__heading {
+    margin-bottom: 24px;
+    font-size: 40px;
+}
+
+/* Our commitment */
+
+.commitment {
+    padding: 170px 0;
+}
+
+.commitment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commitment__img {
+    margin-right: 125px;
+}
+
+.commitment-info {
+    width: 540px;
+}
+
+.commitment__heading {
+    font-size: 40px;
+    color: #333D4B;
+}
+
+.commitment__desc {
+    margin: 0;
+    color: #333D4B;
+    opacity: 0.8;
+}
+
+/* Uncompromising quality */
+
+.quality-container {
+    position: relative;
+    width: 1280px;
+    padding: 88px 655px 176px 85px;
+    background-color: #2C343E;
+    background-position: 1280px 474px;
+    border-radius: 10px;
+}
+
+.quality-info {
+        width: 540px;
+}
+
+.quality__heading {
+    font-size: 40px;
+}
+
+.quality__desc {
+    margin: 0;
+}
+
+.quality__img {
+    position: absolute;
+    z-index: 1;
+    top: -17%;
+    right: 5%;
+    border-radius: 10px;
+}
+
+
+/* Our headquarters */
+
+.headquarters {
+    padding: 168px 0;
+}
+
+.headquarters__heading {
+    margin-bottom: 72px;
+}
+
+.headquartes-list {
+    width: 1045px;
+    margin: 0;
+}
+
+.headquartes-list__item {
+    width: 285px;
+}
+
+.headquartes-list__item:nth-child(1):before {
+    content: "";
+    display: block;
+    margin-bottom: 46px;
+    width: 41px;
+    height: 49px;
+    background-image: url("../images/map-united-kingdom.svg");
+    background-repeat: no-repeat;
+}
+
+.headquartes-list__item:nth-child(2):before {
+    content: "";
+    display: block;
+    margin-bottom: 46px;
+    width: 52px;
+    height: 50px;
+    background-image: url("../images/map-canada.svg");
+    background-repeat: no-repeat;
+}
+
+
+.headquartes-list__item:nth-child(3):before {
+    content: "";
+    display: block;
+    margin-bottom: 46px;
+    width: 49px;
+    height: 43px;
+    background-image: url("../images/map-australia.svg");
+    background-repeat: no-repeat;
+}
+
+.headquartes-list__heading {
+    margin-bottom: 25px;
+}
+
+.headquartes-list__desc__tel {
+    display: block;
+    text-decoration: none;
 }
