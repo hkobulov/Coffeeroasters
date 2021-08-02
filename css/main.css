@@ -48,6 +48,7 @@ img {
 body {
     margin: 0;
     padding: 0;
+    padding-bottom: 88px;
     font-family: "Barlow", "Arila", sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -75,7 +76,7 @@ body {
 /* Header */
 
 .header {
-    padding: 25px 0;
+    padding: 45px 0;
 }
 
 .header-container {
@@ -114,6 +115,8 @@ body {
 .nav__link:hover {
     color: #333D4B;
 }
+
+
 
 .nav__link--active {
     color: #333D4B;
@@ -158,12 +161,15 @@ body {
 }
 
 .section-btn {
+    width: 217px;
+    display: block;
     padding: 15px 15px;
     font-family: "Fraunces", "Times New Roman", serif;
     font-style: normal;
     font-size: 18px;
     font-weight: 900;
     color: #FEFCF7;
+    text-align: center;
     text-decoration: none;
     background-color: #fff;
     background: #0E8784;
@@ -502,7 +508,7 @@ body {
 .quality-container {
     position: relative;
     width: 1280px;
-    padding: 88px 655px 176px 85px;
+    padding: 88px 85px 176px 85px;
     background-color: #2C343E;
     background-position: 1280px 474px;
     border-radius: 10px;
@@ -533,6 +539,10 @@ body {
 
 .headquarters {
     padding: 168px 0;
+}
+
+.headquarters-container {
+    padding: 0 85px;
 }
 
 .headquarters__heading {
@@ -581,9 +591,251 @@ body {
 
 .headquartes-list__heading {
     margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.headquartes-list__desc__address {
+    display: inline-block;
+    font-style: normal;
 }
 
 .headquartes-list__desc__tel {
     display: block;
     text-decoration: none;
+}
+
+
+/* * * * * * * * * * * * * * *  CREATE YOUR PLANE * * * * * * * * * * * * * *  */
+
+.plane-container {
+    width: 1280px;
+    background-image: url("../images/plane-bg.jpg");
+    background-repeat: no-repeat;
+    padding: 134px 85px;
+    margin-bottom: 170px;
+}
+
+/* Our work */
+
+.our-work-container {
+    width: 1280px;
+    padding: 100px 85px;
+    background-color: #2C343E;
+    border-radius: 10px ;
+}
+
+.our-work-list__heading {
+    color: #FEFCF7;
+}
+
+.our-work-list__desc {
+    color: #FEFCF7;
+}
+
+/* Create my plane */
+
+.my-plane {
+    padding-top: 159px;
+    padding-bottom: 168px;
+}
+
+.my-plane-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.my-plane-left {
+    margin-right: 125px;
+}
+
+.plane-list {
+    width: 255px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.plane-list__item {
+    display: flex;
+    align-items: center;
+}
+
+.plane-list__stat {
+    margin: 0;
+    margin-right: 24px;
+    padding: 0;
+    font-size: 24px;
+    color: #CDCECD;
+}
+
+.plane-list__heading {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #ADB0B2;
+}
+
+
+/* My plane */
+
+.my-plane-right {
+    width: 730px;
+    margin-bottom: 85px;
+}
+
+.my-plane-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.my-plane-list__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 56px;
+}
+
+/* 1 */
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(1):before {
+    display: block;
+}
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(1):after {
+    display: none;
+}
+
+/* 2 */
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(2):before {
+    display: block;
+}
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(2):after {
+    display: none;
+}
+
+/* 3 */
+
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(3):before {
+    display: block;
+}
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(3):after {
+    display: none;
+}
+
+/* 4 */
+
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(4):before {
+    display: block;
+}
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(4):after {
+    display: none;
+}
+
+/* 5 */
+
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(5):before {
+    display: block;
+}
+
+.my-plane-list__item:hover .my-plane-list__heading:nth-child(5):after {
+    display: none;
+}
+
+
+.my-plane-list__heading::after {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 12px;
+    background-image: url("../images/label-top.svg");
+    background-repeat: no-repeat;
+}
+
+.my-plane-list__heading::before {
+    content: "";
+    display: none;
+    width: 18px;
+    height: 12px;
+    background-image: url("../images/label-bottom.svg");
+    background-repeat: no-repeat;
+    order: 1;
+}
+
+.my-plane-form {
+    display: none;
+    justify-content: space-between;
+    margin-bottom: 88px;
+}
+
+.my-plane-label-area {
+    width: 228px;
+    height: 250px;
+    padding: 32px 28px;
+    background-color: #F4F1EB;
+    border-radius: 8px;
+}
+
+.my-plane-label-area__heading {
+    margin-bottom: 24px;
+    color: #333D4B;
+}
+
+.my-plane-label-area__desc {
+    margin: 0;
+    padding: 0;
+    color:  #333D4B;
+}
+
+.my-plane-list__item:hover .my-plane-form {
+    display: flex;
+}
+
+.my-plane-select:checked + .my-plane-label-area {
+    background-color: #0E8784;
+}
+
+.my-plane-select:checked + .my-plane-label-area > * {
+    color: #fff;
+}
+
+.my-plane-label-area:hover {
+    background-color: #FDD6BA;
+    transition: background-color 0.5s ease;
+}
+
+/* My plane info */
+
+.my-plane-info {
+    width: 730px;
+    margin-bottom: 40px;
+    padding: 27px 64px;
+    background-color: #2C343E;
+    border-radius: 10px;
+}
+
+.my-plane-info__heading {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.my-plane-info__desc {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.my-plane-info__btn {
+    width: 217px;
+    display: block;
+    margin-left: auto;
+    border: none;
 }
