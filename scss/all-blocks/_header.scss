@@ -1,0 +1,44 @@
+.header {
+    padding: 45px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav__item + .nav__item {
+    margin-left: 33px;
+}
+
+.nav__link {
+    font-size: 12px;
+    font-weight: 700;
+    color: $gray-text;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.5s ease;
+
+    &:hover {
+        color: $black-text;
+    }
+
+    &--active {
+        color: $black-text;
+    }
+}

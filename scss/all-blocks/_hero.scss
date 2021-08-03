@@ -1,0 +1,59 @@
+.hero-container {
+    width: 1280px;
+    padding: 116px 85px;
+    background-image: url(../images/Bitmap.jpg);
+    background-size: 1280px 600px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.hero-info {
+    width: 500px;
+}
+
+.hero__heading {
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-family: "Fraunces", "Times New Roman", serif;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    color: $white-text;
+    text-align-last: left;
+}
+
+.hero__desc {
+    width: 445px;
+    margin: 0;
+    margin-bottom: 56px;
+    padding: 0;
+    color: $white-text;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.section-btn {
+    width: 217px;
+    display: block;
+    padding: 15px 15px;
+    font-family: "Fraunces", "Times New Roman", serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 900;
+    color: $white-text;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    background: $blue-bg;
+    border-radius: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section-btn:hover {
+    background-color: $ligtblue-bg;
+    transition: background-color 0.5s ease;
+}

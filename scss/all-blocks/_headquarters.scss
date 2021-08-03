@@ -1,0 +1,66 @@
+.headquarters {
+    padding: 168px 0;
+}
+
+.headquarters-container {
+    padding: 0 85px;
+}
+
+.headquarters__heading {
+    margin-bottom: 72px;
+}
+
+.headquartes-list {
+    width: 1045px;
+    margin: 0;
+}
+
+.headquartes-list__item {
+    width: 285px;
+}
+
+.headquartes-list__item:nth-child(1):before {
+    content: "";
+    display: block;
+    margin-bottom: 46px;
+    width: 41px;
+    height: 49px;
+    background-image: url("../images/map-united-kingdom.svg");
+    background-repeat: no-repeat;
+}
+
+.headquartes-list__item:nth-child(2):before {
+    content: "";
+    display: block;
+    margin-bottom: 46px;
+    width: 52px;
+    height: 50px;
+    background-image: url("../images/map-canada.svg");
+    background-repeat: no-repeat;
+}
+
+
+.headquartes-list__item:nth-child(3):before {
+    content: "";
+    display: block;
+    margin-bottom: 46px;
+    width: 49px;
+    height: 43px;
+    background-image: url("../images/map-australia.svg");
+    background-repeat: no-repeat;
+}
+
+.headquartes-list__heading {
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.headquartes-list__desc__address {
+    display: inline-block;
+    font-style: normal;
+}
+
+.headquartes-list__desc__tel {
+    display: block;
+    text-decoration: none;
+}
