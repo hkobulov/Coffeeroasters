@@ -57,3 +57,16 @@
     background-color: $ligtblue-bg;
     transition: background-color 0.5s ease;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .hero-container {
+      background-image: url("../images/Bitmap@2x.jpg");
+  }
+} 

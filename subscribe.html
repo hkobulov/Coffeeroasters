@@ -143,7 +143,7 @@
                                 </p>    
                             </a>
                         </li>
-
+                        
                         <li class="plane-list__item">
                             <a class="plane-list__link" href="#option">
                                 <strong class="plane-list__stat work__heading">
@@ -155,7 +155,7 @@
                                 </p>    
                             </a>
                         </li>
-
+                        
                         <li class="plane-list__item">
                             <a class="plane-list__link" href="#time">
                                 <strong class="plane-list__stat work__heading">
@@ -171,271 +171,273 @@
                 </div>
                 
                 <div class="my-plane-right">
-                    <ol class="my-plane-list">
-                        <li class="my-plane-list__item" id="coffee">
-                            <h3 class="my-plane-list__heading work__heading">
-                                How do you drink your coffee?
+                    <form class="plane-form" action="https://echo.htmlacademy.ru/" method="POST">
+                        <ol class="my-plane-list">
+                            <li class="my-plane-list__item .my-plane-list--active">
+                                <h3 class="my-plane-list__heading work__heading">
+                                    How do you drink your coffee?
+                                </h3>
+
+                                <div class="my-plane-list__input-area">
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="preference" value="capsule">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Capsule
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Compatible with Nespresso systems and similar brewers
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="preference" value="capsule">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Filter
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                For pour over or drip methods like Aeropress, Chemex, and V60
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="preference" value="capsule">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Espresso
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Dense and finely ground beans for an intense, flavorful experience
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="my-plane-list__item .my-plane-list--active">
+                                <h3 class="my-plane-list__heading work__heading">
+                                    What type of coffee?
+                                </h3>
+
+                                <div class="my-plane-list__input-area">
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="type" value="single_origin">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Single Origin
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Distinct, high quality coffee from a specific family-owned farm
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="type" value="decaf">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Decaf
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Just like regular coffee, except the caffeine has been removed
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="type" value="blended">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Blended
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Combination of two or three dark roasted beans of organic coffees
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="my-plane-list__item .my-plane-list--active">
+                                <h3 class="my-plane-list__heading work__heading">
+                                    How much would you like?
+                                </h3>
+
+                                <div class="my-plane-list__input-area">
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="weight" value="250g">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                250g
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Perfect for the solo drinker. Yields about 12 delicious cups.
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="weight" value="500g">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                500g
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Perfect option for a couple. Yields about 40 delectable cups.
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="weight" value="1000g">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                1000g
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Perfect for offices and events. Yields about 90 delightful cups.
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="my-plane-list__item .my-plane-list--active">
+                                <h3 class="my-plane-list__heading work__heading">
+                                    Want us to grind them?
+                                </h3>
+
+                                <div class="my-plane-list__input-area">
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="option" value="wholebean">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Wholebean
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Best choice if you cherish the full sensory experience
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="option" value="filter">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Filter
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                For drip or pour-over coffee methods such as V60 or Aeropress
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="option" value="cafetiére">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                BCafetiére
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                Course ground beans specially suited for french press coffee
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </li>
+
+                            <li class="my-plane-list__item .my-plane-list--active">
+                                <h3 class="my-plane-list__heading work__heading">
+                                    How often should we deliver?
+                                </h3>
+
+                                <div class="my-plane-list__input-area">
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="time" value="every_week">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Every week
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                $7.20 per shipment. Includes free first-class shipping.
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="time" value="every_2_weeks">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Every 2 weeks
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                $9.60 per shipment. Includes free priority shipping.
+                                            </span>
+                                        </span>
+                                    </label>
+    
+                                    <label class="my-plane-list__label">
+                                        <input class="my-plane-list__input visually-hidden" type="radio" name="time" value="every_month">
+    
+                                        <span class="my-plane-list__label-area">
+                                            <span class="my-plane-list__subheading work__heading">
+                                                Every month
+                                            </span>
+    
+                                            <span class="my-plane-list__subdesc">
+                                                $12.00 per shipment. Includes free priority shipping.
+                                            </span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ol>
+
+                        <div class="my-plane-info">
+                            <h3 class="my-plane-info__heading">
+                                Order Summary
                             </h3>
-                            
-                            <form class="my-plane-form" action="https://echo.htmlacademy.ru/" method="POST" id="select_client">
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="coffee_capsule">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Capsule
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Compatible with Nespresso systems and similar brewers
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="coffee_filter">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Filter
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            For pour over or drip methods like Aeropress, Chemex, and V60
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="coffee_espresso">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Espresso
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Dense and finely ground beans for an intense, flavorful experience
-                                        </p>
-                                    </div>
-                                </label>
-                            </form>
-                        </li>
-                        
-                        <li class="my-plane-list__item" id="type">
-                            <h3 class="my-plane-list__heading work__heading">
-                                What type of coffee?
-                            </h3>
-                            
-                            <form class="my-plane-form" action="https://echo.htmlacademy.ru/" method="POST" id="select_client">
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="type_single_origin">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Single Origin
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Distinct, high quality coffee from a specific family-owned farm
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="type_decaf">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Decaf
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Just like regular coffee, except the caffeine has been removed
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="type_blended">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Blended
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Combination of two or three dark roasted beans of organic coffees
-                                        </p>
-                                    </div>
-                                </label>
-                            </form>
-                        </li>
-                        
-                        <li class="my-plane-list__item" id="weight">
-                            <h3 class="my-plane-list__heading work__heading">
-                                How much would you like?
-                            </h3>
-                            
-                            <form class="my-plane-form" action="https://echo.htmlacademy.ru/" method="POST" id="select_client">
-                                <label class="my-plane-label" id="send_selecting">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="weight_250g">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            250g
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Perfect for the solo drinker. Yields about 12 delicious cups.
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="weight_500g">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            500g
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Perfect option for a couple. Yields about 40 delectable cups.
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="weight_1000g">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            1000g
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Perfect for offices and events. Yields about 90 delightful cups.
-                                        </p>
-                                    </div>
-                                </label>
-                            </form>
-                        </li>
-                        
-                        <li class="my-plane-list__item" id="option">
-                            <h3 class="my-plane-list__heading work__heading">
-                                Want us to grind them?
-                            </h3>
-                            
-                            <form class="my-plane-form" action="https://echo.htmlacademy.ru/" method="POST" id="select_client">
-                                <label class="my-plane-label" id="send_selecting">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="grind_wholebean">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Wholebean
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Best choice if you cherish the full sensory experience
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="grind_filter">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Filter
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            For drip or pour-over coffee methods such as V60 or Aeropress
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="cafetiére">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Cafetiére
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            Course ground beans specially suited for french press coffee
-                                        </p>
-                                    </div>
-                                </label>
-                            </form>
-                        </li>
-                        
-                        <li class="my-plane-list__item" id="time">
-                            <h3 class="my-plane-list__heading work__heading">
-                                How often should we deliver?
-                            </h3>
-                            
-                            <form class="my-plane-form" action="https://echo.htmlacademy.ru/" method="POST" id="select_client">
-                                <label class="my-plane-label" id="send_selecting">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="time_week">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Every week
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            $7.20 per shipment. Includes free first-class shipping.
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="time_2week">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Every 2 weeks
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            $9.60 per shipment. Includes free priority shipping.
-                                        </p>
-                                    </div>
-                                </label>
-                                
-                                <label class="my-plane-label">
-                                    <input class="my-plane-select visually-hidden" type="radio" name="select_client" value="time_month">
-                                    
-                                    <div class="my-plane-label-area">
-                                        <h4 class="my-plane-label-area__heading work__heading">
-                                            Every month
-                                        </h4>
-                                        
-                                        <p class="my-plane-label-area__desc">
-                                            $12.00 per shipment. Includes free priority shipping.
-                                        </p>
-                                    </div>
-                                </label>
-                            </form>
-                        </li>
-                    </ol>
-                    
-                    <div class="my-plane-info">
-                        <h2 class="my-plane-info__heading">
-                            Order Summary
-                        </h2>
-                        
-                        <p class="my-plane-info__desc hero__heading">
-                            "I drink my coffee as Filter, with a Decaf type of bean. 250g ground ala Cafetiare, sent to me Every Week."
-                        </p>
-                    </div>
-                    
-                    <button class="my-plane-info__btn section-btn" type="submit" form="select_client">
-                        Create your plan
-                    </button>
+
+                            <p class="my-plane-info__desc work__heading">
+                                “I drink my coffee as <span class="my-plane-info__text">Filter</span> , with a <span class="my-plane-info__text">Decaf</span> type of bean. <span class="my-plane-info__text">250g</span> ground ala <span class="my-plane-info__text">Cafetiére</span>, sent to me <span class="my-plane-info__text">Every Week</span>.”
+                            </p>
+                        </div>
+
+                        <button class="section-btn my-plane-btn" type="submit">
+                            Create my plan!
+                        </button>
+                    </form>
                 </div>
             </div>
         </section>
