@@ -16,7 +16,7 @@
 
 .work-list {
     position: relative;
-    width: 1045px;
+    width: 95%;
     margin: 0;
     margin-bottom: 64px;
     padding-top: 100px;
@@ -97,7 +97,7 @@
         text-align: center;
     }
 
-    .work-list {
+    .work-list {   
         padding: 0;
     }
     
@@ -118,17 +118,23 @@
         margin-right: auto;
     }
 
-    .work-list__item:nth-child(1)::before {
-        margin: 0;
+    .work-list__item:nth-child(2)::before {
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .work-list__item:nth-child(1)::before {
-        margin: 0;
+    .work-list__item:nth-child(3)::before {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .work-list__heading {
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
+    }
+
+    .work-list__desc {
         text-align: center;
     }
 
