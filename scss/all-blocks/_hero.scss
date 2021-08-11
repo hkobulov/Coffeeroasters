@@ -1,14 +1,15 @@
 .hero-container {
-    width: 1280px;
     padding: 116px 85px;
     background-image: url(../images/Bitmap.jpg);
     background-size: 1280px 600px;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 5px;
 }
 
 .hero-info {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
 }
 
 .hero__heading {
@@ -65,8 +66,74 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
-  
-  .hero-container {
-      background-image: url("../images/Bitmap@2x.jpg");
-  }
+    
+    .hero-container {
+        background-image: url("../images/Bitmap@2x.jpg");
+    }
 } 
+
+@include media-max (768px) {
+    .hero-container {
+        padding: 108px 58px;
+    }
+
+    .hero__heading {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 24px;
+    }
+    
+    .hero__desc {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+}
+
+@include media-max (600px) {
+    .hero-container {
+        padding: 100px 24px;
+    }
+
+    .hero__heading {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .hero__desc {
+        width: 100%;
+        margin-bottom: 39px;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .section-btn {
+        margin: 0 auto;
+    }
+}
+
+@include media-max (400px) {
+    .hero-container {
+        padding: 50px 12px;
+    }
+
+    .hero__heading {
+        width: 80%;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        
+    }
+
+    .hero__desc {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}

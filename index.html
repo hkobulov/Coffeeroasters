@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./css/main.min.css">
     <title>Coffeeroasters</title>
 </head>
@@ -35,6 +36,12 @@
                     </li>
                 </ul>
             </nav>
+            
+            <button class="menu-list__btn">
+                <img class="menu-list__btn__img" src="./images/hamburger.svg" alt="Hamburger" width="16" height="15">
+
+                <img class="menu-list__cbtn__img" src="./images/cancel.svg" alt="Cancel" width="16" height="15">
+            </button>
         </div>
     </header>
     
@@ -45,7 +52,7 @@
         
         <section class="hero">
             <div class="container hero-container">
-                <!-- Hero-info -->
+                
                 <div class="hero-info">
                     <h1 class="hero__heading">
                         Great coffee
@@ -81,13 +88,15 @@
                         width="255" 
                         height="193">
                         
-                        <h3 class="product__heading">
-                            Gran Espresso
-                        </h3>
-                        
-                        <p class="product__desc">
-                            Light and flavorful blend with cocoa and black pepper for an intense experience.
-                        </p>
+                        <div class="product-box">
+                            <h3 class="product__heading">
+                                Gran Espresso
+                            </h3>
+                            
+                            <p class="product__desc">
+                                Light and flavorful blend with cocoa and black pepper for an intense experience.
+                            </p>
+                        </div>
                     </li>
                     
                     <li class="product__item">
@@ -99,13 +108,15 @@
                         width="255" 
                         height="193">
                         
-                        <h3 class="product__heading">
-                            Planalto
-                        </h3>
-                        
-                        <p class="product__desc">
-                            Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.
-                        </p>
+                        <div class="product-box">
+                            <h3 class="product__heading">
+                                Planalto
+                            </h3>
+                            
+                            <p class="product__desc">
+                                Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.
+                            </p>
+                        </div>
                     </li>
                     
                     <li class="product__item">
@@ -117,25 +128,29 @@
                         width="255" 
                         height="193">
                         
-                        <h3 class="product__heading">
-                            Piccollo
-                        </h3>
-                        
-                        <p class="product__desc">
-                            Mild and smooth blend featuring notes of toasted almond and dried cherry.
-                        </p>
+                        <div class="product-box">
+                            <h3 class="product__heading">
+                                Piccollo
+                            </h3>
+                            
+                            <p class="product__desc">
+                                Mild and smooth blend featuring notes of toasted almond and dried cherry.
+                            </p>
+                        </div>
                     </li>
                     
                     <li class="product__item">
                         <img class="product__img" src="./images/product-danche.png" alt="Coffee gran espresso" width="255" height="193">
                         
-                        <h3 class="product__heading">
-                            Danche
-                        </h3>
-                        
-                        <p class="product__desc">
-                            Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
-                        </p>
+                        <div class="product-box">
+                            <h3 class="product__heading">
+                                Danche
+                            </h3>
+                            
+                            <p class="product__desc">
+                                Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -159,33 +174,39 @@
                 
                 <ul class="about-list">
                     <li class="about-list__item">
-                        <h3 class="about-list__heading product__heading">
+                        <div class="about-box">
+                            <h3 class="about-list__heading product__heading">
                             Best quality
                         </h3>
                         
                         <p class="about-list__desc product__desc">
                             Discover an endless variety of the world’s best artisan coffee from each of our roasters.
                         </p>
+                        </div>
                     </li>
                     
                     <li class="about-list__item">
-                        <h3 class="about-list__heading product__heading">
+                        <div class="about-box">
+                             <h3 class="about-list__heading product__heading">
                             Best quality
                         </h3>
                         
                         <p class="about-list__desc product__desc">
                             Discover an endless variety of the world’s best artisan coffee from each of our roasters.
                         </p>
+                        </div>
                     </li>
                     
                     <li class="about-list__item">
-                        <h3 class="about-list__heading product__heading">
+                        <div class="about-box">
+                            <h3 class="about-list__heading product__heading">
                             Best quality
                         </h3>
                         
                         <p class="about-list__desc product__desc">
                             Discover an endless variety of the world’s best artisan coffee from each of our roasters.
                         </p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -233,7 +254,7 @@
                     </li>
                 </ol>
                 
-                <a class="section-btn" href="#">
+                <a class="section-btn work__btn" href="#">
                     Create your plane
                 </a>
             </div>
@@ -250,20 +271,20 @@
                 </a>
                 
                 <nav class="nav footer-nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
+                    <ul class="nav__list f-nav__list">
+                        <li class="nav__item f-nav__item">
                             <a class="nav__link f-nav__link footer-link--active" href="./index.html">
                                 home
                             </a>
                         </li>
                         
-                        <li class="nav__item">
+                        <li class="nav__item f-nav__item">
                             <a class="nav__link f-nav__link" href="./about.html">
                                 about us
                             </a>
                         </li>
                         
-                        <li class="nav__item">
+                        <li class="nav__item f-nav__item">
                             <a class="nav__link f-nav__link" href="./subscribe.html">
                                 create your plane
                             </a>
@@ -278,13 +299,13 @@
                         <img class="footer-links__img" src="./images/facebook-icon.svg" alt="Logo of facebook" width="24" height="24">
                     </a>
                 </li>
-
+                
                 <li class="footer-links__item">
                     <a class="footer-links__link" href="https://www.twitter.com/" target="_blank">
                         <img class="footer-links__img" src="./images/twitter-icon.svg" alt="Logo of twitter" width="24" height="24">
                     </a>
                 </li>
-
+                
                 <li class="footer-links__item">
                     <a class="footer-links__link" href="https://www.instagram.com/" target="_blank">
                         <img class="footer-links__img" src="./images/instagram-icon.svg" alt="Logo of instagram" width="24" height="24">
@@ -293,5 +314,6 @@
             </ul>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 </html>

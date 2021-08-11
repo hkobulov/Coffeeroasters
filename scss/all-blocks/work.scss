@@ -27,6 +27,7 @@
     top: 0;
     left: 0;
     content: "";
+    display: block;
     width: 791px;
     height: 31px;
     background-image: url("../images/work-line.svg");
@@ -34,7 +35,8 @@
 }
 
 .work-list__item {
-    width: 285px;
+    width: 100%;
+    max-width: 285px;
 }
 
 .work-list__item:nth-child(1)::before {
@@ -68,7 +70,8 @@
 }
 
 .work-list__heading {
-    width: 255px;
+    width: 100%;
+    max-width: 255px;
     margin-top: 0;
     margin-bottom: 42px;
     padding: 0;
@@ -85,4 +88,51 @@
     margin: 0;
     padding: 0;
     color: $black-text;
+}
+
+@include media-max (1250px) {
+    .work__heading {
+        margin: 0;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .work-list {
+        padding: 0;
+    }
+    
+    .work-list::before {
+        content: none;
+    }
+
+    .work-list__item + .work-list__item {
+        margin-top: 56px;
+    }
+
+    .work-list__item {
+        margin: 0 auto;
+    }
+
+    .work-list__item:nth-child(1)::before {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work-list__item:nth-child(1)::before {
+        margin: 0;
+    }
+
+    .work-list__item:nth-child(1)::before {
+        margin: 0;
+    }
+
+    .work-list__heading {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .work__btn {
+        margin: 0 auto;
+    }
 }
