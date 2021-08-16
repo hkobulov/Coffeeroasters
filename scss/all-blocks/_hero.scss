@@ -1,15 +1,16 @@
 .hero-container {
     padding: 116px 85px;
     background-image: url(../images/Bitmap.jpg);
-    background-size: 1260px 600px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     border-radius: 5px;
 }
 
 .hero-info {
     width: 100%;
     max-width: 500px;
+    text-align: center;
 }
 
 .hero__heading {

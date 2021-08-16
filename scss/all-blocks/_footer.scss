@@ -64,4 +64,10 @@
         max-width: 130px;
         text-align: center;
     }
+
+    @include media-max (600px) {
+        .footer-links__link {
+            font-size: 12px;
+        }
+    }
 }
