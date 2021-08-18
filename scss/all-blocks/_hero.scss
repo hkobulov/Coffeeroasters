@@ -1,7 +1,7 @@
 .hero-container {
     padding: 116px 85px;
     background-image: url(../images/Bitmap.jpg);
-    background-size: cover;
+    background-size: 1280px 600px;
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 5px;
@@ -23,7 +23,6 @@
     line-height: 72px;
     font-weight: 900;
     color: $white-text;
-    text-align-last: left;
 }
 
 .hero__desc {

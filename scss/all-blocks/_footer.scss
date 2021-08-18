@@ -41,33 +41,41 @@
     .footer-left {
         flex-direction: column;
     }
-
+    
     .footer__link {
         margin-bottom: 48px;
     }
-
+    
     .footer-container {
         flex-direction: column;
     }
-
+    
     .f-nav__list {
         margin-bottom: 50px;
         flex-direction: column;
     }
-
+    
     .f-nav__item {
         margin-top: 24px;
     }
-
+    
     .f-nav__link {
         display: block;
         max-width: 130px;
         text-align: center;
     }
-
+    
     @include media-max (600px) {
-        .footer-links__link {
-            font-size: 12px;
+        .f-nav__link {
+            font-family: "Barlow", "Arila", sans-serif;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: normal;
+        }
+        
+        .footer-link--active {
+            color: $white-text;
         }
     }
 }

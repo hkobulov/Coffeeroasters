@@ -194,4 +194,16 @@
     .about-list__desc {
         text-align: center;
     }
+
+    .about-list__item:nth-child(1)::before {
+        margin: 0;
+    }
+
+    .about-list__item:nth-child(2)::before {
+        margin: 0;
+    }
+
+    .about-list__item:nth-child(3)::before {
+        margin: 0;
+    }
 }
